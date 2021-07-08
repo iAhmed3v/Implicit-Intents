@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/web_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="textPersonName"
+        android:text="@string/url_text"
+        android:textColorHighlight="@color/purple_200"
+        android:textCursorDrawable="@color/purple_200"
+        android:theme="@style/custom_edit_text"/>
+
+    <Button
+        android:id="@+id/web_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/web_btn_text"/>
+
+    <EditText
+        android:id="@+id/location_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="textPersonName"
+        android:text="@string/location_text"
+        android:textColorHighlight="@color/purple_200"
+        android:textCursorDrawable="@color/purple_200"
+        android:theme="@style/custom_edit_text"/>
+
+    <Button
+        android:id="@+id/location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/location_btn_text" />
+
+    <EditText
+        android:id="@+id/share_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:inputType="textPersonName"
+        android:text="@string/share_text"
+        android:textColorHighlight="@color/purple_200"
+        android:textCursorDrawable="@color/purple_200"
+        android:theme="@style/custom_edit_text"/>
+
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/share_btn_text" />
+</LinearLayout>
